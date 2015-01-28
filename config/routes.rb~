@@ -1,0 +1,12 @@
+Rails.application.routes.draw do
+  resources :shopping_list_items
+
+root :to => "pages#index"
+
+  resources :shopping_lists
+
+  resources :items
+
+  resources :shops
+
+end

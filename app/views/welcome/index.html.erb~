@@ -1,0 +1,7 @@
+<h1>SHOPPING LIST CREATOR</h1>
+<p>Create your own shopping list</p>
+<%= link_to "Go to SHOPS", shops_path %>
+<br>
+<%= link_to "Go to ITEMS", items_path %>
+<br>
+<%= link_to "Go to SHOPPING LISTS", shopping_lists_path %>
